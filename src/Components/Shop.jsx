@@ -5,17 +5,17 @@ function Shop() {
   const products = [
     {
       id: 1,
-      name: "Earthen Bottle",
+      name: "Wipro Furniture Gusto High Back Chair",
       href: "#",
       price: "$48",
       imageSrc:
-        "https://m.media-amazon.com/images/I/71cPrlBcO-L._AC_UL320_.jpg",
+        "https://m.media-amazon.com/images/I/61OpDrUEC4L._AC_UL320_.jpg",
       imageAlt:
         "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
     },
     {
       id: 2,
-      name: "Nomad Tumbler",
+      name: "Solid Sheesham Wood 6 Seater Sofa Set",
       href: "#",
       price: "$35",
       imageSrc:
@@ -25,61 +25,61 @@ function Shop() {
     },
     {
       id: 3,
-      name: "Focus Paper Refill",
+      name: "Wood Bedroom Furniture ",
       href: "#",
       price: "$89",
       imageSrc:
-        "https://m.media-amazon.com/images/I/610GhgEG6pL._AC_UL320_.jpg",
+        "https://m.media-amazon.com/images/I/61sYtf2HNdL._AC_UL320_.jpg",
       imageAlt:
         "Person using a pen to cross a task off a productivity paper card.",
     },
     {
       id: 4,
-      name: "Machined Mechanical Pencil",
+      name: "Compact Plastic Cabinet for Storage",
       href: "#",
       price: "$35",
       imageSrc:
-        "https://m.media-amazon.com/images/I/61LOY61YKCL._AC_UL320_.jpg",
+        "https://m.media-amazon.com/images/I/81yswKKDH3L._AC_UL320_.jpg",
       imageAlt:
         "Hand holding black machined steel mechanical pencil with brass tip and top.",
     },
     {
       id: 5,
-      name: "Earthen Bottle",
+      name: "Wood Dining Table 4 Seater ",
       href: "#",
       price: "$48",
       imageSrc:
-        "https://m.media-amazon.com/images/I/71uxQPlAKhL._AC_UL320_.jpg",
+        "https://m.media-amazon.com/images/I/71DvmF5+xRL._AC_UL320_.jpg",
       imageAlt:
         "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
     },
     {
       id: 6,
-      name: "Nomad Tumbler",
+      name: "Double Bed Cot Bed Furniture for Bedroom",
       href: "#",
       price: "$35",
       imageSrc:
-        "https://m.media-amazon.com/images/I/519BKVV1yRL._AC_UL320_.jpg",
+        "https://m.media-amazon.com/images/I/71Pl+x8UnvL._AC_UL320_.jpg",
       imageAlt:
         "Olive drab green insulated bottle with flared screw lid and flat top.",
     },
     {
       id: 7,
-      name: "Focus Paper Refill",
+      name: "Set of 2 Outdoor Seating Chairs",
       href: "#",
       price: "$89",
       imageSrc:
-        "https://m.media-amazon.com/images/I/71-dNLM2PSL._AC_UL320_.jpg",
+        "https://m.media-amazon.com/images/I/81CgXzoF5wL._AC_UL320_.jpg",
       imageAlt:
         "Person using a pen to cross a task off a productivity paper card.",
     },
     {
       id: 8,
-      name: "Machined Mechanical Pencil",
+      name: "Sheesham Wood 5 Seater Sofa",
       href: "#",
       price: "$35",
       imageSrc:
-        "https://m.media-amazon.com/images/I/81XPnJCcFzL._AC_UL320_.jpg",
+        "https://m.media-amazon.com/images/I/71A6gFjHhtL._AC_UL320_.jpg",
       imageAlt:
         "Hand holding black machined steel mechanical pencil with brass tip and top.",
     },

@@ -9,6 +9,7 @@ import Footer from "./Components/Footer";
 import Cart from "./Components/Cart"; // Import Cart component
 import PageNotFound from "./Components/PageNotFound";
 import AnimatedCursor from "react-animated-cursor";
+import Team from "./Components/Team";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="*" element={<PageNotFound />} />
+        <Route path="/team" element={<Team />} />
       </Routes>
       <Footer />
     </BrowserRouter>

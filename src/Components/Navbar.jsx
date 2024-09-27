@@ -92,14 +92,7 @@ export default function Navbar() {
             to="/cart"
             className="relative mr-7 flex items-center text-gray-900 hover:text-gray-700 transition duration-300"
           >
-            <ShoppingBagIcon className="h-6 w-6" aria-hidden="true" />
-            <span
-              id="cart-count" // Add this ID
-              className="absolute -top-4 -right-4 flex h-7 w-7 items-center justify-center rounded-full bg-red-500 text-xs font-bold text-white border-2 border-white shadow-lg"
-              aria-hidden="true"
-            >
-              {JSON.parse(localStorage.getItem("bagItems"))?.length || 0}
-            </span>
+            <ShoppingBagIcon className="h-8 w-8" aria-hidden="true" />
           </Link>
           <button
             type="button"
@@ -178,6 +171,12 @@ export default function Navbar() {
           >
             Contact us
           </Link>
+          <Link
+            to={"/team"}
+            className="text-sm font-semibold leading-6 text-gray-900"
+          >
+            Our Team
+          </Link>
         </PopoverGroup>
 
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
@@ -185,14 +184,7 @@ export default function Navbar() {
             to="/cart"
             className="relative flex items-center text-gray-900 hover:text-gray-700 transition duration-300"
           >
-            <ShoppingBagIcon className="h-6 w-6" aria-hidden="true" />
-            <span
-              id="cart-count" // Add this ID
-              className="absolute -top-4 -right-4 flex h-7 w-7 items-center justify-center rounded-full bg-red-500 text-xs font-bold text-white border-2 border-white shadow-lg"
-              aria-hidden="true"
-            >
-              {JSON.parse(localStorage.getItem("bagItems"))?.length || 0}
-            </span>
+            <ShoppingBagIcon className="h-8 w-8" aria-hidden="true" />
           </Link>
         </div>
       </nav>
@@ -273,6 +265,12 @@ export default function Navbar() {
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Contact us
+                </Link>
+                <Link
+                  to={"/team"}
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                >
+                  Our Team
                 </Link>
               </div>
             </div>

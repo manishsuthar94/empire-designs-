@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Home2() {
   const callouts = [
@@ -10,7 +11,7 @@ function Home2() {
         "https://cdn.pixabay.com/photo/2024/01/27/08/22/ai-generated-8535501_640.png",
       imageAlt:
         "Discover stylish and comfortable furniture to transform your living room into a cozy, modern space.",
-      href: "#",
+      href: "/livingroom",
     },
     {
       name: "Bedroom",
@@ -18,7 +19,7 @@ function Home2() {
       imageSrc: "https://m.media-amazon.com/images/I/61haDw3+mDL.jpg",
       imageAlt:
         "Find the perfect furniture to create a peaceful and relaxing bedroom environment for better sleep and comfort.",
-      href: "#",
+      href: "/bedroom",
     },
     {
       name: "Office",
@@ -28,7 +29,7 @@ function Home2() {
         "https://bgofficefurniture.com/wp-content/uploads/2021/06/102-W2-1.jpg",
       imageAlt:
         "Enhance productivity with ergonomic and modern office furniture designed for a professional work setting.",
-      href: "#",
+      href: "/office",
     },
   ];
 
@@ -50,10 +51,10 @@ function Home2() {
                     />
                   </div>
                   <h3 className="mt-6 text-sm text-gray-500">
-                    <a href={callout.href}>
+                    <Link to={callout.href}>
                       <span className="absolute inset-0" />
                       {callout.name}
-                    </a>
+                    </Link>
                   </h3>
                   <p className="text-base font-semibold text-gray-900">
                     {callout.description}

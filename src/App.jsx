@@ -10,6 +10,9 @@ import Cart from "./Components/Cart"; // Import Cart component
 import PageNotFound from "./Components/PageNotFound";
 import AnimatedCursor from "react-animated-cursor";
 import Team from "./Components/Team";
+import Bedroom from "./Components/Categories/Bedroom";
+import LivingRoom from "./Components/Categories/LivingRoom";
+import Office from "./Components/Categories/Office";
 
 function App() {
   return (
@@ -37,6 +40,10 @@ function App() {
         <Route path="/cart" element={<Cart />} />
         <Route path="*" element={<PageNotFound />} />
         <Route path="/team" element={<Team />} />
+
+        <Route path="/office" element={<Office />} />
+        <Route path="/livingroom" element={<LivingRoom />} />
+        <Route path="/bedroom" element={<Bedroom />} />
       </Routes>
       <Footer />
     </BrowserRouter>

@@ -35,21 +35,21 @@ const products = [
     name: "Living Room",
     description:
       "Discover stylish and comfortable furniture to transform your living room into a cozy, modern space.",
-    href: "#",
+    href: "/livingroom",
     icon: SquaresPlusIcon,
   },
   {
     name: "Bedroom",
     description:
       "Find the perfect furniture to create a peaceful and relaxing bedroom environment for better sleep and comfort.",
-    href: "#",
+    href: "/bedroom",
     icon: Bars3Icon,
   },
   {
     name: "Office",
     description:
       "Enhance productivity with ergonomic and modern office furniture designed for a professional work setting.",
-    href: "#",
+    href: "/office",
     icon: SquaresPlusIcon, // Represents a building or structure
   },
 ];
@@ -144,13 +144,13 @@ export default function Navbar() {
                       />
                     </div>
                     <div className="flex-auto">
-                      <a
-                        href={item.href}
+                      <Link
+                        to={item.href}
                         className="block font-semibold text-gray-900"
                       >
                         {item.name}
                         <span className="absolute inset-0" />
-                      </a>
+                      </Link>
                       <p className="mt-1 text-gray-600">{item.description}</p>
                     </div>
                   </div>
@@ -243,8 +243,8 @@ export default function Navbar() {
                     {[...products].map((item) => (
                       <DisclosureButton
                         key={item.name}
-                        as="a"
-                        href={item.href}
+                        as={Link} // Use Link instead of "a"
+                        to={item.href} // Use "to" instead of "href"
                         className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                       >
                         {item.name}

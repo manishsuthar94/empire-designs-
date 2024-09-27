@@ -18,17 +18,19 @@ function App() {
   return (
     <BrowserRouter>
       <AnimatedCursor
-        innerSize={8}
-        outerSize={35}
+        innerSize={10}
+        outerSize={37}
         innerScale={1}
         outerScale={2}
         outerAlpha={0}
         hasBlendMode={true}
         innerStyle={{
-          backgroundColor: "#14f9fc",
+          backgroundColor: "rgb(79 70 229)",
+          boxShadow: "0 0 8px rgba(91, 33, 182, 0.8)",
         }}
         outerStyle={{
-          border: "3px solid #14f9fc",
+          border: "4px solid rgb(129 140 248)",
+          boxShadow: "0 0 20px rgba(59, 130, 246, 0.5)",
         }}
       />
       <Navbar />

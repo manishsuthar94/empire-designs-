@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 
 const people = [
   {
@@ -25,6 +26,10 @@ const people = [
 function Team() {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Empire-Design | Team Page</title>
+      </Helmet>
       <div className="bg-white py-24 sm:py-32">
         <div className="mx-auto grid max-w-7xl gap-x-9 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
           <div className="max-w-2xl">

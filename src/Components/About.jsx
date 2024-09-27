@@ -94,10 +94,6 @@ function About() {
 
                 <ul role="list" className="mt-8 space-y-8 text-gray-600">
                   <li className="flex gap-x-3">
-                    <CloudArrowUpIcon
-                      aria-hidden="true"
-                      className="mt-1 h-5 w-5 flex-none text-indigo-600"
-                    />
                     <span>
                       <strong className="font-semibold text-gray-900">
                         Living Room Furniture
@@ -108,10 +104,6 @@ function About() {
                     </span>
                   </li>
                   <li className="flex gap-x-3">
-                    <LockClosedIcon
-                      aria-hidden="true"
-                      className="mt-1 h-5 w-5 flex-none text-indigo-600"
-                    />
                     <span>
                       <strong className="font-semibold text-gray-900">
                         Bedroom Furniture:
@@ -121,10 +113,6 @@ function About() {
                     </span>
                   </li>
                   <li className="flex gap-x-3">
-                    <ServerIcon
-                      aria-hidden="true"
-                      className="mt-1 h-5 w-5 flex-none text-indigo-600"
-                    />
                     <span>
                       <strong className="font-semibold text-gray-900">
                         Office Furniture:

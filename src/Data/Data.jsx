@@ -89,22 +89,22 @@ const products = [
     imageSrc: "https://m.media-amazon.com/images/I/41LnCzjW3OL._AC_UL320_.jpg",
     imageAlt: "Solid Sheesham Wood Table for Living Room",
   },
-  {
-    id: 12,
-    name: "Table with Wheels Open Storage Desk ",
-    href: "#",
-    price: "$35",
-    imageSrc: "https://m.media-amazon.com/images/I/71K7YCpzhdL._AC_UL320_.jpg",
-    imageAlt: "Table with Wheels Open Storage Desk",
-  },
 
   {
-    id: 13,
+    id: 12,
     name: "Wipro Furniture Gusto High Back Chair",
     href: "#",
     price: "$48",
     imageSrc: "https://m.media-amazon.com/images/I/61OpDrUEC4L._AC_UL320_.jpg",
     imageAlt: "Wipro Furniture Gusto High Back Chair",
+  },
+  {
+    id: 13,
+    name: "Compact Plastic Cabinet for Storage",
+    href: "#",
+    price: "$35",
+    imageSrc: "https://m.media-amazon.com/images/I/81yswKKDH3L._AC_UL320_.jpg",
+    imageAlt: "Compact Plastic Cabinet for Storage",
   },
   {
     id: 14,
@@ -122,13 +122,14 @@ const products = [
     imageSrc: "https://m.media-amazon.com/images/I/61sYtf2HNdL._AC_UL320_.jpg",
     imageAlt: "Wood Bedroom Furniture",
   },
+
   {
     id: 16,
-    name: "Compact Plastic Cabinet for Storage",
+    name: "Table with Wheels Open Storage Desk ",
     href: "#",
     price: "$35",
-    imageSrc: "https://m.media-amazon.com/images/I/81yswKKDH3L._AC_UL320_.jpg",
-    imageAlt: "Compact Plastic Cabinet for Storage",
+    imageSrc: "https://m.media-amazon.com/images/I/71K7YCpzhdL._AC_UL320_.jpg",
+    imageAlt: "Table with Wheels Open Storage Desk",
   },
 ];
 

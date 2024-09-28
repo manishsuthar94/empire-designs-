@@ -14,6 +14,7 @@ import Bedroom from "./Components/Categories/Bedroom";
 import LivingRoom from "./Components/Categories/LivingRoom";
 import Office from "./Components/Categories/Office";
 import Details from "./Components/Details";
+import Payment from "./Components/Payment";
 
 function App() {
   return (
@@ -43,12 +44,11 @@ function App() {
         <Route path="/cart" element={<Cart />} />
         <Route path="*" element={<PageNotFound />} />
         <Route path="/team" element={<Team />} />
-
         <Route path="/office" element={<Office />} />
         <Route path="/livingroom" element={<LivingRoom />} />
         <Route path="/bedroom" element={<Bedroom />} />
-
         <Route path="/details/:id" element={<Details />} />
+        <Route path="/payment/:id" element={<Payment />} />
       </Routes>
       <Footer />
     </BrowserRouter>

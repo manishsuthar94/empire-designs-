@@ -2,6 +2,7 @@ import React from "react";
 import { useLocation, useParams } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import products from "../Data/Data";
+import { Link } from "react-router-dom";
 
 function Details() {
   const { id } = useParams(); // Get the product id from the URL
@@ -187,9 +188,12 @@ function Details() {
                   </button>
                 </div>
                 <div className="flex items-center gap-3">
-                  <button className="text-center w-full px-5 py-4 rounded-[100px] bg-indigo-600 flex items-center justify-center font-semibold text-lg text-white shadow-sm transition-all duration-500 hover:bg-indigo-700 hover:shadow-indigo-400">
+                  <Link
+                    to={`/payment/${product.id}`}
+                    className="text-center w-full px-5 py-4 rounded-[100px] bg-indigo-600 flex items-center justify-center font-semibold text-lg text-white shadow-sm transition-all duration-500 hover:bg-indigo-700 hover:shadow-indigo-400"
+                  >
                     Buy Now
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>

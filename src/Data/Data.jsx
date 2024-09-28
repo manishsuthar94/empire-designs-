@@ -64,6 +64,39 @@ const products = [
     imageSrc: "https://m.media-amazon.com/images/I/71A6gFjHhtL._AC_UL320_.jpg",
     imageAlt: "Sheesham Wood 5 Seater Sofa",
   },
+
+  {
+    id: 9,
+    name: "Sienna Outdoor Seating Chairs and Table Set",
+    href: "#",
+    price: "$55",
+    imageSrc: "https://m.media-amazon.com/images/I/81bFS1VETkL._AC_UL320_.jpg",
+    imageAlt: "Sienna Outdoor Seating Chairs and Table Set",
+  },
+  {
+    id: 10,
+    name: "Smart Collection Wood Free-Style Side Table",
+    href: "#",
+    price: "$35",
+    imageSrc: "https://m.media-amazon.com/images/I/61rqI7d0CmL._AC_UL320_.jpg",
+    imageAlt: "Smart Collection Wood Free-Style Side Table",
+  },
+  {
+    id: 11,
+    name: "Solid Sheesham Wood Table for Living Room ",
+    href: "#",
+    price: "$89",
+    imageSrc: "https://m.media-amazon.com/images/I/41LnCzjW3OL._AC_UL320_.jpg",
+    imageAlt: "Solid Sheesham Wood Table for Living Room",
+  },
+  {
+    id: 12,
+    name: "Table with Wheels Open Storage Desk ",
+    href: "#",
+    price: "$35",
+    imageSrc: "https://m.media-amazon.com/images/I/71K7YCpzhdL._AC_UL320_.jpg",
+    imageAlt: "Table with Wheels Open Storage Desk",
+  },
 ];
 
 export default products;

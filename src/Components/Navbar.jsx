@@ -95,11 +95,13 @@ export default function Navbar() {
             <ShoppingBagIcon className="h-8 w-8" aria-hidden="true" />
           </Link>
 
-          <img
-            class="w-10 h-10 p-1 mr-7 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
-            src="https://png.pngtree.com/png-clipart/20231019/original/pngtree-user-profile-avatar-png-image_13369988.png"
-            alt="Bordered avatar"
-          />
+          <Link to={"/login"}>
+            <img
+              class="w-10 h-10 p-1 mr-7 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
+              src="https://png.pngtree.com/png-clipart/20231019/original/pngtree-user-profile-avatar-png-image_13369988.png"
+              alt="Bordered avatar"
+            />
+          </Link>
 
           <button
             type="button"
@@ -193,11 +195,13 @@ export default function Navbar() {
           >
             <ShoppingBagIcon className="h-8 w-8" aria-hidden="true" />
           </Link>
-          <img
-            class="w-11 h-11 p-1 ml-5 rounded-full ring-2 ring-gray-300 "
-            src="https://png.pngtree.com/png-clipart/20231019/original/pngtree-user-profile-avatar-png-image_13369988.png"
-            alt="Bordered avatar"
-          />
+          <Link to={"/login"}>
+            <img
+              class="w-11 h-11 p-1 ml-5 rounded-full ring-2 ring-gray-300 "
+              src="https://png.pngtree.com/png-clipart/20231019/original/pngtree-user-profile-avatar-png-image_13369988.png"
+              alt="Bordered avatar"
+            />
+          </Link>
         </div>
       </nav>
       <Dialog

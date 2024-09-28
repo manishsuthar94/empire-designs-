@@ -15,6 +15,8 @@ import LivingRoom from "./Components/Categories/LivingRoom";
 import Office from "./Components/Categories/Office";
 import Details from "./Components/Details";
 import Payment from "./Components/Payment";
+import Login from "./Components/Login";
+import Signup from "./Components/Signup";
 
 function App() {
   return (
@@ -49,6 +51,8 @@ function App() {
         <Route path="/bedroom" element={<Bedroom />} />
         <Route path="/details/:id" element={<Details />} />
         <Route path="/payment/:id" element={<Payment />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
       </Routes>
       <Footer />
     </BrowserRouter>

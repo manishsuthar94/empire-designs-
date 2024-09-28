@@ -197,7 +197,7 @@ export default function Navbar() {
           </Link>
           <Link to={"/login"}>
             <img
-              class="w-11 h-11 p-1 ml-5 rounded-full ring-2 ring-gray-300 "
+              class="w-11 h-11 p-1 ml-11 rounded-full ring-2 ring-gray-300 "
               src="https://png.pngtree.com/png-clipart/20231019/original/pngtree-user-profile-avatar-png-image_13369988.png"
               alt="Bordered avatar"
             />

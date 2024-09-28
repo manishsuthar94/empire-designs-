@@ -27,7 +27,7 @@ function Home() {
             className="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full"
             role="alert"
           >
-            <span className="text-[13px] sm:text-[18px] md:text-[20px] font-medium p-2">
+            <span className="text-[13px] sm:text-[18px] md:text-[20px] font-medium p-2 text-gray-700">
               <TypeAnimation
                 sequence={[
                   // Typing different furniture types for the store

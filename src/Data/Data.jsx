@@ -97,6 +97,39 @@ const products = [
     imageSrc: "https://m.media-amazon.com/images/I/71K7YCpzhdL._AC_UL320_.jpg",
     imageAlt: "Table with Wheels Open Storage Desk",
   },
+
+  {
+    id: 13,
+    name: "Wipro Furniture Gusto High Back Chair",
+    href: "#",
+    price: "$48",
+    imageSrc: "https://m.media-amazon.com/images/I/61OpDrUEC4L._AC_UL320_.jpg",
+    imageAlt: "Wipro Furniture Gusto High Back Chair",
+  },
+  {
+    id: 14,
+    name: "Solid Sheesham Wood 6 Seater Sofa Set",
+    href: "#",
+    price: "$35",
+    imageSrc: "https://m.media-amazon.com/images/I/71u3F2NZ9gL._AC_UL320_.jpg",
+    imageAlt: "Solid Sheesham Wood 6 Seater Sofa Set",
+  },
+  {
+    id: 15,
+    name: "Wood Bedroom Furniture ",
+    href: "#",
+    price: "$89",
+    imageSrc: "https://m.media-amazon.com/images/I/61sYtf2HNdL._AC_UL320_.jpg",
+    imageAlt: "Wood Bedroom Furniture",
+  },
+  {
+    id: 16,
+    name: "Compact Plastic Cabinet for Storage",
+    href: "#",
+    price: "$35",
+    imageSrc: "https://m.media-amazon.com/images/I/81yswKKDH3L._AC_UL320_.jpg",
+    imageAlt: "Compact Plastic Cabinet for Storage",
+  },
 ];
 
 export default products;

@@ -20,7 +20,7 @@ function Home() {
         <meta charSet="utf-8" />
         <title>Empire-Design</title>
       </Helmet>
-      <section className="bg-white dark:bg-gray-900">
+      <section className="bg-white">
         <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
           <a
             href="#"
@@ -91,11 +91,7 @@ function Home() {
               About us
             </Link>
           </div>
-          <div className="px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36">
-           
-           
-            
-          </div>
+          <div className="px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36"></div>
         </div>
       </section>
 

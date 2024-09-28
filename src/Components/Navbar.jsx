@@ -90,10 +90,17 @@ export default function Navbar() {
         <div className="flex lg:hidden">
           <Link
             to="/cart"
-            className="relative mr-7 flex items-center text-gray-900 hover:text-gray-700 transition duration-300"
+            className="relative mr-6 flex items-center text-gray-900 hover:text-gray-700 transition duration-300"
           >
             <ShoppingBagIcon className="h-8 w-8" aria-hidden="true" />
           </Link>
+
+          <img
+            class="w-10 h-10 p-1 mr-7 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
+            src="https://png.pngtree.com/png-clipart/20231019/original/pngtree-user-profile-avatar-png-image_13369988.png"
+            alt="Bordered avatar"
+          />
+
           <button
             type="button"
             onClick={() => setMobileMenuOpen(true)}
@@ -186,6 +193,11 @@ export default function Navbar() {
           >
             <ShoppingBagIcon className="h-8 w-8" aria-hidden="true" />
           </Link>
+          <img
+            class="w-11 h-11 p-1 ml-5 rounded-full ring-2 ring-gray-300 "
+            src="https://png.pngtree.com/png-clipart/20231019/original/pngtree-user-profile-avatar-png-image_13369988.png"
+            alt="Bordered avatar"
+          />
         </div>
       </nav>
       <Dialog

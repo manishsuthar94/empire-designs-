@@ -13,6 +13,7 @@ import Team from "./Components/Team";
 import Bedroom from "./Components/Categories/Bedroom";
 import LivingRoom from "./Components/Categories/LivingRoom";
 import Office from "./Components/Categories/Office";
+import Details from "./Components/Details";
 
 function App() {
   return (
@@ -46,6 +47,8 @@ function App() {
         <Route path="/office" element={<Office />} />
         <Route path="/livingroom" element={<LivingRoom />} />
         <Route path="/bedroom" element={<Bedroom />} />
+
+        <Route path="/details/:id" element={<Details />} />
       </Routes>
       <Footer />
     </BrowserRouter>

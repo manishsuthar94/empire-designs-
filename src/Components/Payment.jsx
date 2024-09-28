@@ -61,7 +61,7 @@ function Payment() {
                     <input
                       type="text"
                       id="full_name"
-                      className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 dark:focus:border-primary-500 dark:focus:ring-primary-500"
+                      className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 "
                       placeholder="Bonnie Green"
                       required
                     />
@@ -70,7 +70,7 @@ function Payment() {
                   <div className="col-span-2 sm:col-span-1">
                     <label
                       for="card-number-input"
-                      className="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
+                      className="mb-2 block text-sm font-medium text-gray-900 "
                     >
                       {" "}
                       Card number*{" "}
@@ -78,7 +78,7 @@ function Payment() {
                     <input
                       type="text"
                       id="card-number-input"
-                      className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 pe-10 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500  dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 dark:focus:border-primary-500 dark:focus:ring-primary-500"
+                      className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 pe-10 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 "
                       placeholder="xxxx-xxxx-xxxx-xxxx"
                       pattern="^4[0-9]{12}(?:[0-9]{3})?$"
                       required
@@ -88,7 +88,7 @@ function Payment() {
                   <div>
                     <label
                       for="card-expiration-input"
-                      className="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
+                      className="mb-2 block text-sm font-medium text-gray-900 "
                     >
                       Card expiration*{" "}
                     </label>
@@ -115,7 +115,7 @@ function Payment() {
                         datepicker-format="mm/yy"
                         id="card-expiration-input"
                         type="text"
-                        className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 ps-9 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+                        className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 ps-9 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700  dark:placeholder:text-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
                         placeholder="12/23"
                         required
                       />
@@ -124,7 +124,7 @@ function Payment() {
                   <div>
                     <label
                       for="cvv-input"
-                      className="mb-2 flex items-center gap-1 text-sm font-medium text-gray-900 dark:text-white"
+                      className="mb-2 flex items-center gap-1 text-sm font-medium text-gray-900 "
                     >
                       CVV*
                       <button
@@ -159,7 +159,7 @@ function Payment() {
                       type="number"
                       id="cvv-input"
                       aria-describedby="helper-text-explanation"
-                      className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 dark:focus:border-primary-500 dark:focus:ring-primary-500"
+                      className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500"
                       placeholder="•••"
                       required
                     />
@@ -191,7 +191,7 @@ function Payment() {
                             <dt className="text-base font-normal text-gray-500 dark:text-gray-400">
                               Original price
                             </dt>
-                            <dd className="text-base font-medium text-gray-900 dark:text-white">
+                            <dd className="text-base font-medium text-gray-900 ">
                               ${priceNumber.toFixed(2)}
                             </dd>
                           </dl>
@@ -211,7 +211,7 @@ function Payment() {
                             <dt className="text-base font-normal text-gray-500 dark:text-gray-400">
                               Store Pickup
                             </dt>
-                            <dd className="text-base font-medium text-gray-900 dark:text-white">
+                            <dd className="text-base font-medium text-gray-900 ">
                               $2.00
                             </dd>
                           </dl>
@@ -221,17 +221,17 @@ function Payment() {
                             <dt className="text-base font-normal text-gray-500 dark:text-gray-400">
                               Tax (3%)
                             </dt>
-                            <dd className="text-base font-medium text-gray-900 dark:text-white">
+                            <dd className="text-base font-medium text-gray-900 ">
                               ${(priceNumber * 0.95 * 0.03).toFixed(2)}
                             </dd>
                           </dl>
 
                           {/* Total price calculation */}
                           <dl className="flex items-center justify-between gap-4 border-t border-gray-200 pt-2 dark:border-gray-700">
-                            <dt className="text-base font-bold text-gray-900 dark:text-white">
+                            <dt className="text-base font-bold text-gray-900 ">
                               Total
                             </dt>
-                            <dd className="text-base font-bold text-gray-900 dark:text-white">
+                            <dd className="text-base font-bold text-gray-900 ">
                               $
                               {(
                                 priceNumber - // Original price

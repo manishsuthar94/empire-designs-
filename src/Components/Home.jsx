@@ -59,7 +59,8 @@ function Home() {
             </svg>
           </a>
           <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl">
-            Transform Your Home with Timeless Furniture
+            Transform Your Home with Timeless{" "}
+            <span className="gradient-text">Furniture</span>
           </h1>
           <p className="mb-8 text-lg font-normal text-gray-600 lg:text-xl sm:px-16 xl:px-48 ">
             Discover stylish, modern furniture that elevates every corner of
@@ -105,7 +106,7 @@ function Home() {
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2  xl:grid-cols-4">
             <a
               href="#"
-              className="flex justify-center items-center border border-solid border-gray-200 shadow-sm h-24 rounded-2xl"
+              className="flex justify-center items-center border border-solid border-gray-200 shadow-md h-24 rounded-2xl"
             >
               <svg
                 className="h-9"
@@ -139,7 +140,7 @@ function Home() {
             </a>
             <a
               href="#"
-              className="flex justify-center items-center border border-solid border-gray-200 shadow-sm h-24 rounded-2xl"
+              className="flex justify-center items-center border border-solid border-gray-200 shadow-md h-24 rounded-2xl"
             >
               <svg
                 className="h-9"
@@ -183,7 +184,7 @@ function Home() {
             </a>
             <a
               href="#"
-              className="flex justify-center items-center border border-solid border-gray-200 shadow-sm h-24 rounded-2xl"
+              className="flex justify-center items-center border border-solid border-gray-200 shadow-md h-24 rounded-2xl"
             >
               <svg
                 className="h-9"
@@ -210,7 +211,7 @@ function Home() {
             </a>
             <a
               href="#"
-              className="flex justify-center items-center border border-solid border-gray-200 shadow-sm h-24 rounded-2xl"
+              className="flex justify-center items-center border border-solid border-gray-200 shadow-md h-24 rounded-2xl"
             >
               <svg
                 className="h-9"
@@ -256,7 +257,7 @@ function Home() {
             </a>
             <a
               href="#"
-              className="flex justify-center items-center border border-solid border-gray-200 shadow-sm h-24 rounded-2xl"
+              className="flex justify-center items-center border border-solid border-gray-200 shadow-md h-24 rounded-2xl"
             >
               <svg
                 className="h-9"
@@ -312,7 +313,7 @@ function Home() {
             </a>
             <a
               href="#"
-              className="flex justify-center items-center border border-solid border-gray-200 shadow-sm h-24 rounded-2xl"
+              className="flex justify-center items-center border border-solid border-gray-200 shadow-md h-24 rounded-2xl"
             >
               <svg
                 className="h-9"
@@ -350,7 +351,7 @@ function Home() {
             </a>
             <a
               href="#"
-              className="flex justify-center items-center border border-solid border-gray-200 shadow-sm h-24 rounded-2xl"
+              className="flex justify-center items-center border border-solid border-gray-200 shadow-md h-24 rounded-2xl"
             >
               <svg
                 className="h-9"
@@ -373,7 +374,7 @@ function Home() {
             </a>
             <a
               href="#"
-              className="flex justify-center items-center border border-solid border-gray-200 shadow-sm h-24 rounded-2xl"
+              className="flex justify-center items-center border border-solid border-gray-200 shadow-md h-24 rounded-2xl"
             >
               <svg
                 className="h-9"
